@@ -23,7 +23,7 @@ export default new Vuex.Store({
         moduleSearch,
         moduleKeywords,
         moduleLatest,
-        moduleUI
+        moduleUI,
     },
     getters: {
         loading: state => state.moduleUI.loading,

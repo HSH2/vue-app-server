@@ -2,8 +2,6 @@
   "name": "home-sweet-home",
   "version": "0.0.1",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.0",
     "vue": "^2.3.3",
     "vuex": "^2.3.1"
   },
@@ -15,11 +13,11 @@
     "less": "^2.7.2",
     "less-loader": "^4.0.3",
     "vue-loader": "^12.1.0",
-    "vue-template-compiler": "^2.3.3"
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^3.5.5"
   },
   "scripts": {
-    "dev": "webpack --config webpack_config/webpack.config.dev.js",
-    "server": "node server/server.js"
+    "dev": "webpack --config webpack_config/webpack.config.dev.js"
   },
   "author": "liguangyi, liguangyi08@gmail.com"
 }
