@@ -12,5 +12,6 @@ npm install -g bower
 
 ```javascript
 npm install
+bower install
 ```
 
